@@ -8,6 +8,12 @@ cask "ares" do
   desc "Cross-platform, multi-system emulator, focusing on accuracy and preservation"
   homepage "https://ares-emu.net/"
 
+  livecheck do
+    url :homepage
+    strategy :page_match
+    regex(/ares\sv?(\d+(?:\.\d+)+)/i)
+  end
+
   auto_updates true
   depends_on macos: ">= :el_capitan"
 
