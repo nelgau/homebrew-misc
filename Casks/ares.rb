@@ -1,4 +1,4 @@
-cask "ares-emulator" do
+cask "ares" do
   version "130.1"
   sha256 "34f80476cdc6acca4718e0af14171ab90193f6c5269d10b8443edf3d2f0f7558"
 
