@@ -1,4 +1,4 @@
-cask "kicad" do
+cask "kicad@5.1" do
   version "5.1.12-1"
   sha256 "c2380302f0ddce72123aa0ae4a6561b3acc168c3c04fc6b3019ee3325dcd65e3"
 
